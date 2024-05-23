@@ -1,4 +1,4 @@
-##אתר קניית מוצרי מזון
+אתר קניית מוצרי מזון
 
 תיאור הפרויקט
 
@@ -16,27 +16,28 @@
 
 שליפת רשימת המוצרים https://shop.co.il/product GET
 
-שליפת מוצר לפי מזהה https://shop.co.il/product/1 GET
+שליפת מוצר לפי ברקוד https://shop.co.il/product/1223445554 GET
 
 הוספת מוצר https://shop.co.il/product POST
 
 עדכון מוצר https://shop.co.il/product/1 PUT
 
-שליפת רשימת המוצרים המתאימים לקטגוריה https://shop.co.il/product GET
+שליפת רשימת המוצרים המתאימים לקטגוריה https://shop.co.il/product/1 GET
 
-ונשלח במתודה את הקטגוריה
 
 מיפוי ללקוחות
 
 שליפת רשימת הלקוחות https://shop.co.il/customer GET
 
-שליפת לקוח לפי מזהה https://shop.co.il/customer/1 GET
+שליפת לקוח לפי סיסמא https://shop.co.il/customer/1234 GET
 
 הוספת לקוח https://shop.co.il/customer POST
 
 עדכון לקוח https://shop.co.il/customer PUT
 
-מיפוי לקנייה שליפת רשימת הקניות https://shop.co.il/shopping GET
+מיפוי לקנייה
+
+שליפת רשימת הקניות לפי סיסמת לקוח - שולחים במטודה את הסיסמא כשלא שולחים מחזיר את כל רשימת הקניות https://shop.co.il/shopping GET
 
 שליפת קנייה לפי מזהה https://shop.co.il/shopping/1 GET
 
@@ -46,4 +47,3 @@
 
 מחיקת קנייה https://shop.co.il/shopping/1 DELETE
 
-שליפת רשימת קניות לפי ת"ז לקוח https://shop.co.il/shopping GET ונשלח במתודה את הת"ז
